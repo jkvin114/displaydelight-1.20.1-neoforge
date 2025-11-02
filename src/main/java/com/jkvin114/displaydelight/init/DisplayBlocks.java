@@ -70,7 +70,7 @@ public class DisplayBlocks {
     public static final RegistryObject<Block> RABBIT_STEW = createFoodBlock("rabbit_stew");
     public static final RegistryObject<Block> BEETROOT_STEW = createFoodBlock("beetroot_soup");
 
-    /*
+
     //CORN DELIGHT
 
     public static final RegistryObject<Block> CD_NACHOS_BOWL = createFoodBlock("cd_nachos_bowl");
@@ -252,7 +252,7 @@ public class DisplayBlocks {
     public static final RegistryObject<Block> ND_WARPED_MOLDY_MEAT = createWideFoodBlock("nd_warped_moldy_meat");
     public static final RegistryObject<Block> ND_GRILLED_STRIDER = createWideFoodBlock("nd_grilled_strider");
 
-*/
+
     public static List<Block> getAll() {
         return blocks.stream().map(RegistryObject::get).toList();
     }

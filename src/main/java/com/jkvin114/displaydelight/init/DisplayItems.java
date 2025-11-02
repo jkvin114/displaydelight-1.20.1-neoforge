@@ -104,7 +104,7 @@ public class DisplayItems {
     public static final RegistryObject<Item> SMALL_PLATED_CABBAGE_ROLLS =  block(SmallPlatedBlocks.PLATED_CABBAGE_ROLLS);
 //
 
-/*
+
     //CORN DELIGHT
 
     public static final RegistryObject<Item> CD_CREAMY_COR_DRINK = drinkblock(DisplayBlocks.CD_CREAMY_COR_DRINK);
@@ -469,7 +469,7 @@ public class DisplayItems {
     public static final RegistryObject<Item> ND_PLATE_OF_STUFFED_HOGLIN_HAM =  blockNoCreativeTab(DisplayBlocks.ND_PLATE_OF_STUFFED_HOGLIN_HAM);
     public static final RegistryObject<Item> ND_PLATE_OF_STUFFED_HOGLIN_ROAST =  blockNoCreativeTab(DisplayBlocks.ND_PLATE_OF_STUFFED_HOGLIN_ROAST);
     public static final RegistryObject<Item> ND_NETHER_SKEWER =  blockNoCreativeTab(PlatedBlocks.ND_NETHER_SKEWER);
-*/
+
 
     public static RegistryObject<Item> blockitem(RegistryObject<Block> block) {
 

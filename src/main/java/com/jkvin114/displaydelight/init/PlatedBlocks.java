@@ -45,7 +45,7 @@ public class PlatedBlocks {
     public static final RegistryObject<Block> PLATED_COOKIE = createStackablePlatedBlock("plated_cookie", 4);
     public static final RegistryObject<Block> PLATED_PUMPKIN_PIE = createPlatedBlock("plated_pumpkin_pie");
 
-/*
+
     //corn delight
     public static final RegistryObject<Block> CD_GRILLED_CORN = createStackablePlatedBlock("cd_plated_grilled_corn", 2);
     public static final RegistryObject<Block> CD_CLASSIC_CORN_DOG = createStackablePlatedBlock("cd_plated_classic_corn_dog", 2);
@@ -127,7 +127,7 @@ public class PlatedBlocks {
     public static final RegistryObject<Block> CRD_FISH_STICK = createPlatedBlock("crd_plated_fish_stick");
     public static final RegistryObject<Block> CRD_STUFFED_NAUTILUS_SHELL = createPlatedBlock("crd_plated_stuffed_nautilus_shell");
 
-*/
+
 
     private static BlockBehaviour.Properties baseProps() {
         return BlockBehaviour.Properties.of().noOcclusion()

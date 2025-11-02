@@ -45,7 +45,7 @@ public class DisplayDelight
         PlatedBlocks.REGISTRY.register(modEventBus);
         SmallPlatedBlocks.REGISTRY.register(modEventBus);
         DisplayTabs.CREATIVE_TABS.register(modEventBus);
-     //   ExpandedDelightDisplayBlocks.load();
+        ExpandedDelightDisplayBlocks.load();
 
 
 

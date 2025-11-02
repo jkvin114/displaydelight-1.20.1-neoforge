@@ -30,7 +30,7 @@ public class SmallPlatedBlocks {
     public static final RegistryObject<Block> PLATED_KELP_ROLL_SLICE = createPlatedBlock("small_plated_kelp_roll_slice");
     public static final RegistryObject<Block> PLATED_CABBAGE_ROLLS = createPlatedBlock("small_plated_cabbage_rolls");
 
-    /*
+
 
     //DELIGHTFUL
     public static final RegistryObject<Block> DF_SALMONBERRY_PIE_SLICE = createPlatedBlock("df_small_plated_salmonberry_pie_slice");
@@ -61,7 +61,7 @@ public class SmallPlatedBlocks {
     public static final RegistryObject<Block> EDD_SMALL_PLATED_CHORUS_FRUIT_PIE_SLICE = createPlatedBlock("edd_small_plated_chorus_fruit_pie_slice");
     public static final RegistryObject<Block> MND_SMALL_PLATED_MAGMA_CAKE_SLICE = createFieryPlatedBlock("mnd_small_plated_magma_cake_slice");
 
-*/
+
     private static BlockBehaviour.Properties baseProps() {
         return BlockBehaviour.Properties.of().noOcclusion()
                 .instabreak().pushReaction(PushReaction.DESTROY).noParticlesOnBreak().mapColor(MapColor.COLOR_BROWN);
