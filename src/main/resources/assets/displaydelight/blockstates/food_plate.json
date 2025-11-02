@@ -1,7 +1,1 @@
-{
-  "variants": {
-    "": {
-      "model": "displaydelight:block/food_plate"
-    }
-  }
-}
+{"variants":{"":{"model":"displaydelight:block/food_plate"}}}

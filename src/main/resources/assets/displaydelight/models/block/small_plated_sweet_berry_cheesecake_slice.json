@@ -1,9 +1,1 @@
-
-
-{
-	"credit": "Made with Blockbench",
-	"parent": "displaydelight:block/small_plated_chocolate_pie_slice",
-	"textures": {
-		"4": "displaydelight:block/sweet_berry_cheesecake"
-	}
-}
+{"credit":"Made with Blockbench","parent":"displaydelight:block/small_plated_chocolate_pie_slice","textures":{"4":"displaydelight:block/sweet_berry_cheesecake"}}

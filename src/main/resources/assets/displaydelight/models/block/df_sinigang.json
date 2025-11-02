@@ -1,7 +1,1 @@
-{
-	"credit": "Made with Blockbench",
-	"parent": "displaydelight:block/mushroom_stew",
-	"textures": {
-		"2": "displaydelight:block/df_sinigang"
-	}
-}
+{"credit":"Made with Blockbench","parent":"displaydelight:block/mushroom_stew","textures":{"2":"displaydelight:block/df_sinigang"}}

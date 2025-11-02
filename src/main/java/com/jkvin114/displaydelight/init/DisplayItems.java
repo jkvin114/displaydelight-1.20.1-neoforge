@@ -462,13 +462,13 @@ public class DisplayItems {
 
     public static final RegistryObject<Item> MND_SMALL_PLATED_MAGMA_CAKE_SLICE = block(SmallPlatedBlocks.MND_SMALL_PLATED_MAGMA_CAKE_SLICE);
 
-    public static final RegistryObject<Item> ND_STRIDER_MOSS_STEW = blockNoCreativeTab(DisplayBlocks.ND_STRIDER_MOSS_STEW);
-    public static final RegistryObject<Item> ND_WARPED_MOLDY_MEAT =  blockNoCreativeTab(DisplayBlocks.ND_WARPED_MOLDY_MEAT);
-    public static final RegistryObject<Item> ND_GRILLED_STRIDER =  blockNoCreativeTab(DisplayBlocks.ND_GRILLED_STRIDER);
-    public static final RegistryObject<Item> ND_PLATE_OF_STUFFED_HOGLIN_SNOUT =  blockNoCreativeTab(DisplayBlocks.ND_PLATE_OF_STUFFED_HOGLIN_SNOUT);
-    public static final RegistryObject<Item> ND_PLATE_OF_STUFFED_HOGLIN_HAM =  blockNoCreativeTab(DisplayBlocks.ND_PLATE_OF_STUFFED_HOGLIN_HAM);
-    public static final RegistryObject<Item> ND_PLATE_OF_STUFFED_HOGLIN_ROAST =  blockNoCreativeTab(DisplayBlocks.ND_PLATE_OF_STUFFED_HOGLIN_ROAST);
-    public static final RegistryObject<Item> ND_NETHER_SKEWER =  blockNoCreativeTab(PlatedBlocks.ND_NETHER_SKEWER);
+    public static final RegistryObject<Item> ND_STRIDER_MOSS_STEW = block(DisplayBlocks.ND_STRIDER_MOSS_STEW);
+    public static final RegistryObject<Item> ND_WARPED_MOLDY_MEAT =  block(DisplayBlocks.ND_WARPED_MOLDY_MEAT);
+    public static final RegistryObject<Item> ND_GRILLED_STRIDER =  block(DisplayBlocks.ND_GRILLED_STRIDER);
+    public static final RegistryObject<Item> ND_PLATE_OF_STUFFED_HOGLIN_SNOUT =  block(DisplayBlocks.ND_PLATE_OF_STUFFED_HOGLIN_SNOUT);
+    public static final RegistryObject<Item> ND_PLATE_OF_STUFFED_HOGLIN_HAM =  block(DisplayBlocks.ND_PLATE_OF_STUFFED_HOGLIN_HAM);
+    public static final RegistryObject<Item> ND_PLATE_OF_STUFFED_HOGLIN_ROAST =  block(DisplayBlocks.ND_PLATE_OF_STUFFED_HOGLIN_ROAST);
+    public static final RegistryObject<Item> ND_NETHER_SKEWER =  block(PlatedBlocks.ND_NETHER_SKEWER);
 
 
     public static RegistryObject<Item> blockitem(RegistryObject<Block> block) {

@@ -1,7 +1,1 @@
-{
-	"credit": "Made with Blockbench",
-	"parent": "displaydelight:block/small_plated_chocolate_pie_slice",
-	"textures": {
-		"4": "displaydelight:block/df_pumkpin_pie_slice"
-	}
-}
+{"credit":"Made with Blockbench","parent":"displaydelight:block/small_plated_chocolate_pie_slice","textures":{"4":"displaydelight:block/df_pumkpin_pie_slice"}}
