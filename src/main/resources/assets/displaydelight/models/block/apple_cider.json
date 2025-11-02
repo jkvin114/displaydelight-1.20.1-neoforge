@@ -5,7 +5,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"4": "displaydelight:block/glass_bottle",
-		"6": "displaydelight:block/apple_cider"
+		"6": "displaydelight:block/apple_cider","particle":"block/glass"
 	},
 	"elements": [
 		{
