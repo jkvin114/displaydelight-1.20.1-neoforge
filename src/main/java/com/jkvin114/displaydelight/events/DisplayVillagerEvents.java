@@ -18,6 +18,7 @@ public class DisplayVillagerEvents {
     @SubscribeEvent
     public static void onWandererTrades(WandererTradesEvent event) {
 
+        /*
         if(DisplayConfig.WANDERING_TRADER_FOOD_BLOCK_ITEMS.get()){
             List<VillagerTrades.ItemListing> common =  event.getGenericTrades();
 
@@ -35,7 +36,7 @@ public class DisplayVillagerEvents {
             rare.add(new DisplayItemListing.PlatedFoodItemListing(2,4,24,0.05F) );
             rare.add(new DisplayItemListing.PlatedFoodItemListing(2,4,24,0.05F) );
 
-        }
+        }*/
 
     }
 }
