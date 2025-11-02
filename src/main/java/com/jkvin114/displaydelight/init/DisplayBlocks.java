@@ -62,7 +62,7 @@ public class DisplayBlocks {
     public static final RegistryObject<Block> SHEPHEREDS_PIE = createFoodBlock("shepherds_pie");
     public static final RegistryObject<Block> APPLE_CIDER = createDrinkFoodBlock("apple_cider");
     public static final RegistryObject<Block> MELON_JUICE = createDrinkFoodBlock("melon_juice");
-    public static final RegistryObject<Block> HOT_COCOA = createDrinkFoodBlock("hot_cocoa");
+    public static final RegistryObject<Block> HOT_COCOA = createHotDrinkFoodBlock("hot_cocoa");
 
 
     //VANILA
@@ -74,7 +74,7 @@ public class DisplayBlocks {
     //CORN DELIGHT
 
     public static final RegistryObject<Block> CD_NACHOS_BOWL = createFoodBlock("cd_nachos_bowl");
-    public static final RegistryObject<Block> CD_CREAMY_COR_DRINK = createDrinkFoodBlock("cd_creamy_corn_drink");
+    public static final RegistryObject<Block> CD_CREAMY_COR_DRINK = createHotDrinkFoodBlock("cd_creamy_corn_drink");
 
     public static final RegistryObject<Block> CD_CORNBREAD_STUFFING = createFoodBlock("cd_cornbread_stuffing");
     public static final RegistryObject<Block> CD_CORN_SOUP = createFoodBlock("cd_corn_soup");
@@ -86,8 +86,8 @@ public class DisplayBlocks {
     public static final RegistryObject<Block> DF_MATCHA_MILKSHAKE= createDrinkFoodBlock("df_matcha_milkshake");
     public static final RegistryObject<Block> DF_SALMONBERRY_ICE_CREAM = createFoodBlock("df_salmonberry_ice_cream");
     public static final RegistryObject<Block> DF_SALMONBERRY_MILKSHAKE = createDrinkFoodBlock("df_salmonberry_milkshake");
-    public static final RegistryObject<Block> DF_MATCHA_LATTE = createDrinkFoodBlock("df_matcha_latte");
-    public static final RegistryObject<Block> DF_ENDER_NECTAR = createDrinkFoodBlock("df_ender_nectar");
+    public static final RegistryObject<Block> DF_MATCHA_LATTE = createHotDrinkFoodBlock("df_matcha_latte");
+    public static final RegistryObject<Block> DF_ENDER_NECTAR = createHotDrinkFoodBlock("df_ender_nectar");
     public static final RegistryObject<Block> DF_BERRY_MATCHA_LATTE = createDrinkFoodBlock("df_berry_matcha_latte");
     public static final RegistryObject<Block> DF_CACTUS_CHILI = createFoodBlock("df_cactus_chili");
     public static final RegistryObject<Block> DF_FIELD_SALAD = createFoodBlock("df_field_salad");
@@ -137,7 +137,7 @@ public class DisplayBlocks {
 
     //festive delight
     public static final RegistryObject<Block> FD_FESTIVE_CHICKEN = createFoodBlock("fd_festive_chicken");
-    public static final RegistryObject<Block> FD_CHRISTMAS_TEA = createDrinkFoodBlock("fd_christmas_tea");
+    public static final RegistryObject<Block> FD_CHRISTMAS_TEA = createHotDrinkFoodBlock("fd_christmas_tea");
     public static final RegistryObject<Block> FD_SALMON_VERRINES = createDrinkFoodBlock("fd_salmon_verrines");
 
 

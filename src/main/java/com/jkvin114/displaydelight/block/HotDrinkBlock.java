@@ -20,7 +20,7 @@ public class HotDrinkBlock extends  DrinkBlock{
             double x = (double) pos.getX() + 0.5D + (random.nextDouble() * 0.3D - 0.15D);
             double y = (double) pos.getY() + 0.6D;
             double z = (double) pos.getZ() + 0.5D + (random.nextDouble() * 0.3D - 0.15D);
-            level.addParticle(ParticleTypes.CLOUD, x, y, z, 0.0D, 0.0D, 0.0D);
+            level.addParticle(ParticleTypes.SMOKE, x, y, z, 0.0D, 0.0D, 0.0D);
 
          //   double x1 = (double) pos.getX() + 0.5D;
          //   double y1 = pos.getY();
