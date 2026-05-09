@@ -213,6 +213,10 @@ public class BlockAssociations {
                     }
 
                 }
+                //adjust for id mismatch
+                if(foodName.equals("festive_chicken") && fullNamespace.equals("festive_delight")){
+                    foodName = "festive_chiken";
+                }
 
                // LOGGER.info("Registering {} as {} from {}", itemId, foodName, fullNamespace);
 

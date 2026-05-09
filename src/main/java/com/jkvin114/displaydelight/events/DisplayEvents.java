@@ -6,7 +6,9 @@ import com.jkvin114.displaydelight.block.SmallPlatedFoodBlock;
 import com.jkvin114.displaydelight.init.*;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
@@ -48,6 +50,12 @@ public class DisplayEvents {
     }
     @SubscribeEvent
     public static void onCheck(PlayerInteractEvent.RightClickBlock event) {
+        if(event.getLevel().isClientSide &&
+                InterationManager.testInsertPlate(event.getEntity(), event.getLevel(), event.getHitVec(), event.getHand())
+        ){
+            event.setCanceled(true);
+            event.setCancellationResult(InteractionResult.PASS);
+        }
 
         if (event.getLevel() instanceof ServerLevel slevel
                 && event.getHand() == InteractionHand.MAIN_HAND && event.getItemStack().isEmpty()) {
@@ -70,10 +78,32 @@ public class DisplayEvents {
         }
 
         boolean placed = false;
+        if (event.getHand() == InteractionHand.MAIN_HAND && event.getItemStack().isEmpty()) {
+            placed= InterationManager.tryTakeItemWithBareHand(event.getEntity(), level, event.getHitVec());
+        }
 
-        if(event.getItemStack().is(DisplayTags.SMALL_PLATE_DISPLAYABLE)){
+        if(!placed && event.getItemStack().is(ItemTags.AXES))
+        {
+            placed=InterationManager.tryTakePlateWithAxe(event.getEntity(), level, event.getHitVec());
+            if(placed) event.getEntity().swing(event.getHand(), true);
+        }
+
+        if(!placed && event.getItemStack().getItem() == DisplayItems.PLATE.get())
+        {
+            placed=InterationManager.tryInsertPlate(event.getEntity(), level, event.getHitVec(), event.getHand());
+            if(placed) event.getEntity().swing(event.getHand(), true);
+        }
+
+        if(!placed && event.getItemStack().getItem() == DisplayItems.SMALL_PLATE.get())
+        {
+            placed=InterationManager.tryInsertSmallPlate(event.getEntity(), level, event.getHitVec(), event.getHand());
+            if(placed) event.getEntity().swing(event.getHand(), true);
+        }
+
+        if(!placed && event.getItemStack().is(DisplayTags.SMALL_PLATE_DISPLAYABLE)){
             placed=InterationManager.tryPlaceItemOnSmallPlate(event.getEntity(), level, event.getHitVec(), event.getHand() == InteractionHand.MAIN_HAND);
         }
+
         if(!placed && event.getItemStack().is(DisplayTags.PLATE_DISPLAYABLE)){
             placed=InterationManager.tryPlaceItemOnPlate(event.getEntity(), level, event.getHitVec(), event.getHand() == InteractionHand.MAIN_HAND);
         }
@@ -82,7 +112,12 @@ public class DisplayEvents {
             placed=   InterationManager.tryPlaceItem(event.getEntity(), level, event.getHitVec(), event.getHand() == InteractionHand.MAIN_HAND);
         }
         event.setResult(Event.Result.ALLOW);
-        if(placed) event.setCanceled(true);
+        if(placed) {
+            event.setCanceled(true);
+            event.setCancellationResult(InteractionResult.PASS);
+
+        }
+
 
     }
 

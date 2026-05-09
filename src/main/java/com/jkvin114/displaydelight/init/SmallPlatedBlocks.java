@@ -29,7 +29,7 @@ public class SmallPlatedBlocks {
     public static final RegistryObject<Block> PLATED_SALMON_ROLL = createPlatedBlock("small_plated_salmon_roll");
     public static final RegistryObject<Block> PLATED_KELP_ROLL_SLICE = createPlatedBlock("small_plated_kelp_roll_slice");
     public static final RegistryObject<Block> PLATED_CABBAGE_ROLLS = createPlatedBlock("small_plated_cabbage_rolls");
-
+    public static final RegistryObject<Block> PLATED_PUMPKIN_PIE_SLICE = createPlatedBlock("small_plated_pumpkin_pie_slice");
 
 
     //DELIGHTFUL
@@ -37,6 +37,7 @@ public class SmallPlatedBlocks {
     public static final RegistryObject<Block> DF_PUMPKIN_PIE_SLICE = createPlatedBlock("df_small_plated_pumpkin_pie_slice");
 
     public static final RegistryObject<Block> PD_PINEAPPLE_PIE_SIDE = createPlatedBlock("pd_small_plated_pineapple_pie_side");
+    public static final RegistryObject<Block> PD_PINEAPPLE_CAKE_SLICE = createPlatedBlock("pd_small_plated_pineapple_cake_slice");
 
     //oceans delight
     public static final RegistryObject<Block> OD_ELDER_GUARDIAN_ROLL = createPlatedBlock("od_small_plated_elder_guardian_roll");

@@ -63,6 +63,8 @@ public class DisplayBlocks {
     public static final RegistryObject<Block> APPLE_CIDER = createDrinkFoodBlock("apple_cider");
     public static final RegistryObject<Block> MELON_JUICE = createDrinkFoodBlock("melon_juice");
     public static final RegistryObject<Block> HOT_COCOA = createHotDrinkFoodBlock("hot_cocoa");
+    public static final RegistryObject<Block> GLEAMING_SALAD = createFoodBlock("gleaming_salad");
+    public static final RegistryObject<Block> ONION_SOUP = createFoodBlock("onion_soup");
 
 
     //VANILA

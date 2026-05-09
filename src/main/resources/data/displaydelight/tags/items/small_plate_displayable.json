@@ -28,6 +28,9 @@
     },{
       "id": "farmersdelight:kelp_roll_slice",
       "required": false
+    },{
+      "id": "farmersdelight:pumpkin_pie_slice",
+      "required": false
     },
 
     {
@@ -56,8 +59,10 @@
   ,{
       "id": "pineapple_delight:pineapple_pie_side",
       "required": false
+    },{
+      "id": "pineapple_delight:pineapple_cake_slice",
+      "required": false
     }
-
   ,{
       "id": "oceansdelight:elder_guardian_roll",
       "required": false
