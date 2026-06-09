@@ -17,6 +17,7 @@ public class DisplayTabs {
                     .icon(() -> new ItemStack(DisplayItems.GRILLED_SALMON.get()))
                     .displayItems((parameters, output) -> {
 
+                        if(DisplayConfig.DISABLE_CREATIVE_TAB_ITEMS.get()) return;
                         output.accept(DisplayItems.PLATE.get());
                         output.accept(DisplayItems.SMALL_PLATE.get());
                         DisplayItems.GetAll().forEach(output::accept);
