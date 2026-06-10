@@ -2,7 +2,6 @@ package com.jkvin114.displaydelight;
 import com.jkvin114.displaydelight.init.*;
 
 
-import com.jkvin114.displaydelight.init.compat.ExpandedDelightDisplayBlocks;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
@@ -63,7 +62,7 @@ public class DisplayDelight
     private void commonSetup(final FMLCommonSetupEvent event)
     {
         // Some common setup code
-        LOGGER.info("HELLO FROM COMMON SETUP");
+      //  LOGGER.info("HELLO FROM COMMON SETUP");
 
     }
 
@@ -73,7 +72,7 @@ public class DisplayDelight
     public void onServerStarting(ServerStartingEvent event)
     {
         // Do something when the server starts
-        LOGGER.info("HELLO from server starting");
+      //  LOGGER.info("HELLO from server starting");
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
@@ -84,8 +83,8 @@ public class DisplayDelight
         public static void onClientSetup(FMLClientSetupEvent event)
         {
             // Some client setup code
-            LOGGER.info("HELLO FROM CLIENT SETUP");
-            LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+       //     LOGGER.info("HELLO FROM CLIENT SETUP");
+       //     LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
         }
     }
 }

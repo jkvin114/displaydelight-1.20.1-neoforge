@@ -220,7 +220,7 @@ public class BlockAssociations {
 
 
                 if (registeredFoodItem == Items.AIR) {
-                    LOGGER.warn("{}:{} is not found from registry", fullNamespace, foodName);
+                   // LOGGER.warn("{}:{} is not found from registry", fullNamespace, foodName);
                     continue;
                 }
 

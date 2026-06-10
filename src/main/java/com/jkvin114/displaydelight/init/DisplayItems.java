@@ -1,7 +1,7 @@
 package com.jkvin114.displaydelight.init;
 
 import com.jkvin114.displaydelight.DisplayDelight;
-import com.jkvin114.displaydelight.init.compat.ExpandedDelightDisplayBlocks;
+
 import com.jkvin114.displaydelight.item.FoodBlockItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
