@@ -111,7 +111,7 @@ public abstract class AbstractItemBlock extends HorizontalDirectionalBlock {
     }
     @Override
     public boolean canSurvive(BlockState state, LevelReader world, BlockPos pos) {
-        return world.getBlockState(pos.below()).isFaceSturdy(world, pos.below(), Direction.UP, SupportType.CENTER);
+        return true;
     }
     public ItemStack getStackFor() {
         return new ItemStack(BlockAssociations.getItemFor(this));

@@ -8,9 +8,11 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.entity.living.LivingEntityUseItemEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.event.level.LevelEvent;
@@ -85,7 +87,6 @@ public class DisplayEvents {
         if(placed) event.setCanceled(true);
 
     }
-
     @SubscribeEvent
     public static void onWorldLoad(LevelEvent.Load event) {
         if (event.getLevel() instanceof ServerLevel lvl) {
