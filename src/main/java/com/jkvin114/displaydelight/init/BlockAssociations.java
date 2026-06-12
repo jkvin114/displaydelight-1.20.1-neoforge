@@ -56,6 +56,10 @@ public class BlockAssociations {
         put("mnd_", "mynethersdelight");
         put("nd_", "nethersdelight");
         put("crd_", "crabbersdelight");
+
+        put("abd_", "abnormals_delight");
+        put("fr_", "farmersrespite");
+        put("md_", "minersdelight");
     }};
     private static final Set<String> NO_WANDERING_TRADER = Set.of(
             "nethersdelight"
@@ -80,6 +84,9 @@ public class BlockAssociations {
         put("mynethersdelight", "My Nether's Delight");
         put("nethersdelight", "Nether's Delight");
         put("crabbersdelight", "Crabber's Delight");
+        put("abnormals_delight", "Abnormal's Delight");
+        put("farmersrespite", "Farmer's Respite");
+        put("minersdelight", "Miner's Delight");
     }};
 
     public static final List<Item> TRADEABLE_DRINKS = new ArrayList<>();
@@ -224,7 +231,7 @@ public class BlockAssociations {
 
 
                 if (registeredFoodItem == Items.AIR) {
-                    LOGGER.warn("{}:{} is not found from registry", fullNamespace, foodName);
+                    //LOGGER.warn("{}:{} is not found from registry", fullNamespace, foodName);
                     continue;
                 }
 

@@ -62,6 +62,17 @@ public class SmallPlatedBlocks {
     public static final RegistryObject<Block> EDD_SMALL_PLATED_CHORUS_FRUIT_PIE_SLICE = createPlatedBlock("edd_small_plated_chorus_fruit_pie_slice");
     public static final RegistryObject<Block> MND_SMALL_PLATED_MAGMA_CAKE_SLICE = createFieryPlatedBlock("mnd_small_plated_magma_cake_slice");
 
+    public static final RegistryObject<Block> ABD_SMALL_PLATED_ADZUKI_CAKE_SLICE = createPlatedBlock("abd_small_plated_adzuki_cake_slice");
+    public static final RegistryObject<Block> ABD_SMALL_PLATED_BANANA_CAKE_SLICE = createPlatedBlock("abd_small_plated_banana_cake_slice");
+    public static final RegistryObject<Block> ABD_SMALL_PLATED_CHOCOLATE_CAKE_SLICE = createPlatedBlock("abd_small_plated_chocolate_cake_slice");
+    public static final RegistryObject<Block> ABD_SMALL_PLATED_MINT_CAKE_SLICE = createPlatedBlock("abd_small_plated_mint_cake_slice");
+    public static final RegistryObject<Block> ABD_SMALL_PLATED_STRAWBERRY_CAKE_SLICE = createPlatedBlock("abd_small_plated_strawberry_cake_slice");
+    public static final RegistryObject<Block> ABD_SMALL_PLATED_VANILLA_CAKE_SLICE = createPlatedBlock("abd_small_plated_vanilla_cake_slice");
+    public static final RegistryObject<Block> ABD_SMALL_PLATED_YUCCA_GATEAU_SLICE = createPlatedBlock("abd_small_plated_yucca_gateau_slice");
+
+    public static final RegistryObject<Block> FR_SMALL_PLATED_COFFEE_CAKE_SLICE = createPlatedBlock("fr_small_plated_coffee_cake_slice");
+
+    public static final RegistryObject<Block> FR_SMALL_PLATED_ROSE_HIP_PIE_SLICE = createPlatedBlock("fr_small_plated_rose_hip_pie_slice");
 
     private static BlockBehaviour.Properties baseProps() {
         return BlockBehaviour.Properties.of().noOcclusion()

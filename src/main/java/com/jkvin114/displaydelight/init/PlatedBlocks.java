@@ -128,6 +128,23 @@ public class PlatedBlocks {
     public static final RegistryObject<Block> CRD_STUFFED_NAUTILUS_SHELL = createPlatedBlock("crd_plated_stuffed_nautilus_shell");
 
 
+    public static final RegistryObject<Block> ABD_PLATED_CHERRY_COOKIE = createStackablePlatedBlock("abd_plated_cherry_cookie",4);
+    public static final RegistryObject<Block> ABD_PLATED_ESCARGOT = createPlatedBlock("abd_plated_escargot");
+    public static final RegistryObject<Block> ABD_PLATED_MAPLE_COOKIE = createStackablePlatedBlock("abd_plated_maple_cookie",4);
+    public static final RegistryObject<Block> ABD_PLATED_MULBERRY_COOKIE = createStackablePlatedBlock("abd_plated_mulberry_cookie",4);
+
+    public static final RegistryObject<Block> FR_PLATED_GREEN_TEA_COOKIE = createStackablePlatedBlock("fr_plated_green_tea_cookie",4);
+
+
+    public static final RegistryObject<Block> MD_PLATED_CAVE_HAMBURGER = createPlatedBlock("md_plated_cave_hamburger");
+    //public static final RegistryObject<Block> MD_PLATED_IMPROVISED_BARBECUE_STICK = createStackablePlatedBlock("md_plated_improvised_barbecue_stick",2);
+    // public static final RegistryObject<Block> MD_PLATED_INSECT_SANDWICH = createPlatedBlock("md_plated_insect_sandwich");
+    // public static final RegistryObject<Block> MD_PLATED_INSECT_WRAP = createStackablePlatedBlock("md_plated_insect_wrap",2);
+    public static final RegistryObject<Block> MD_PLATED_SQUID_SANDWICH = createStackablePlatedBlock("md_plated_squid_sandwich",2);
+    // public static final RegistryObject<Block> MD_PLATED_TENTACLES_ON_A_STICK = createStackablePlatedBlock("md_plated_tentacles_on_a_stick",2);
+    public static final RegistryObject<Block> MD_PLATED_VEGAN_HAMBURGER = createPlatedBlock("md_plated_vegan_hamburger");
+    public static final RegistryObject<Block> MD_PLATED_VEGAN_WRAP = createStackablePlatedBlock("md_plated_vegan_wrap",2);
+
 
     private static BlockBehaviour.Properties baseProps() {
         return BlockBehaviour.Properties.of().noOcclusion()

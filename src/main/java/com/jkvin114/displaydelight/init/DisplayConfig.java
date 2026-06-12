@@ -18,6 +18,11 @@ public class DisplayConfig {
     public static final ForgeConfigSpec.BooleanValue SILKTOUCH_DROPS_FOOD_BLOCK_ITEM;
     public static final ForgeConfigSpec.BooleanValue WANDERING_TRADER_FOOD_BLOCK_ITEMS;
 
+    public static final ForgeConfigSpec.BooleanValue DISABLE_CREATIVE_TAB_ITEMS;
+    public static final ForgeConfigSpec.BooleanValue DISABLE_PLACE_ALL_INTERACTION;
+    public static final ForgeConfigSpec.BooleanValue DISABLE_TAKE_ALL_INTERACTION;
+    public static final ForgeConfigSpec.BooleanValue DISABLE_HIDE_PLATE_INTERACTION;
+    public static final ForgeConfigSpec.BooleanValue DISABLE_PUT_PLATE_INTERACTION;
     static {
         BUILDER.push("Features");
         DISABLE_VANILLA_FOODS = BUILDER
@@ -34,6 +39,28 @@ public class DisplayConfig {
                 .define("SilkTouchDropFoodBlock", true);
         WANDERING_TRADER_FOOD_BLOCK_ITEMS = BUILDER.comment("Should wandering traders sell food block items that are unobtainable in survival due to missing compat?")
                 .define("WanderingTraderSellFoodBlock", true);
+
+
+        DISABLE_CREATIVE_TAB_ITEMS = BUILDER.comment("Should creative tab items disabled? Try turning this on if this mod's items take too much space in JEI")
+                .define("DisableCreativeTabItems", false);
+
+
+        DISABLE_PLACE_ALL_INTERACTION = BUILDER.comment("Should shift right-click interation to place all items be disabled?")
+                .define("DisablePlaceAllInteratction", false);
+
+
+        DISABLE_TAKE_ALL_INTERACTION = BUILDER.comment("Should shift right-click interation to take all items be disabled?")
+                .define("DisableTakeAllInteratction", false);
+
+
+        DISABLE_HIDE_PLATE_INTERACTION = BUILDER.comment("Should axe right-click interation to hide plates disabled?")
+                .define("DisableHidePlateInteratction", false);
+
+
+        DISABLE_PUT_PLATE_INTERACTION = BUILDER.comment("Should palte right-click interation to put back the plates disabled?")
+                .define("DisablePutPlateInteratction", false);
+
+
         BUILDER.pop();
         CONFIG = BUILDER.build();
     }

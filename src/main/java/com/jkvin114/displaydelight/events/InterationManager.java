@@ -140,7 +140,7 @@ public class InterationManager {
             }
 
             int count = 1;
-            if(player.isShiftKeyDown()){
+            if(player.isShiftKeyDown()&& !DisplayConfig.DISABLE_TAKE_ALL_INTERACTION.get()){
                 count = target.getStacks(state);
                 world.setBlock(pos,target.hasPlate(state) ?  DisplayBlocks.PLATE.get().defaultBlockState(): Blocks.AIR.defaultBlockState(), 2);
 
@@ -236,7 +236,7 @@ public class InterationManager {
 
             if (handStack.is(target.getStackFor().getItem()) && target.getStacks(state) < target.getMaxStackable()) {
                 int count = 1;
-                if (player.isShiftKeyDown()) {
+                if (player.isShiftKeyDown() && !DisplayConfig.DISABLE_PLACE_ALL_INTERACTION.get()) {
                     int stacksLeft = target.getMaxStackable() - target.getStacks(state);
                     count = player.isCreative() ? stacksLeft : Math.min(stacksLeft, handStack.getCount());
                 }
@@ -253,7 +253,7 @@ public class InterationManager {
             if (!(plateBlock instanceof AbstractStackablePlatedFoodBlock target)) return false;
             int count = 1;
 
-            if (player.isShiftKeyDown()) {
+            if (player.isShiftKeyDown() && !DisplayConfig.DISABLE_PLACE_ALL_INTERACTION.get()) {
                 int stacksLeft = target.getMaxStackable();
                 count = player.isCreative() ? stacksLeft : Math.min(stacksLeft, handStack.getCount());
             }

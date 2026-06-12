@@ -126,7 +126,7 @@ public class DisplayItems {
     public static final RegistryObject<Item> ED_APPLE_JUICE = drinkblock(ExpandedDelightDisplayBlocks.ED_APPLE_JUICE);
     public static final RegistryObject<Item> ED_SWEET_BERRY_JUICE = drinkblock(ExpandedDelightDisplayBlocks.ED_SWEET_BERRY_JUICE);
     public static final RegistryObject<Item> ED_GLOW_BERRY_JUICE = drinkblock(ExpandedDelightDisplayBlocks.ED_GLOW_BERRY_JUICE);
-    public static final RegistryObject<Item> ED_CRANBERRY_JUICE = drinkblock(DisplayBlocks.ED_CRANBERRY_JUICE);
+    public static final RegistryObject<Item> ED_CRANBERRY_JUICE = drinkblock(ExpandedDelightDisplayBlocks.ED_CRANBERRY_JUICE);
 
     public static final RegistryObject<Item> ED_ASPARAGUS_SOUP = block(ExpandedDelightDisplayBlocks.ED_ASPARAGUS_SOUP);
     public static final RegistryObject<Item> ED_ASPARAGUS_SOUP_CREAMY = block(ExpandedDelightDisplayBlocks.ED_ASPARAGUS_SOUP_CREAMY);
@@ -135,20 +135,25 @@ public class DisplayItems {
 
     public static final RegistryObject<Item> ED_PEANUT_SALAD = block(ExpandedDelightDisplayBlocks.ED_PEANUT_SALAD);
     public static final RegistryObject<Item> ED_SWEET_POTTATO_SALAD = block(ExpandedDelightDisplayBlocks.ED_SWEET_POTTATO_SALAD);
+    public static final RegistryObject<Item> ED_GOAT_CHEESE_BEETROOT_SALAD = block(ExpandedDelightDisplayBlocks.ED_GOAT_CHEESE_BEETROOT_SALAD);
+
     public static final RegistryObject<Item> ED_CINNAMON_RICE = block(ExpandedDelightDisplayBlocks.ED_CINNAMON_RICE);
     public static final RegistryObject<Item> ED_CINNAMON_APPLES = block(ExpandedDelightDisplayBlocks.ED_CINNAMON_APPLES);
 
     public static final RegistryObject<Item> ED_ASPARAGUS_AND_BACON_CHEESY = block(ExpandedDelightDisplayBlocks.ED_ASPARAGUS_AND_BACON_CHEESY);
     public static final RegistryObject<Item> ED_PEPERONATA = block(ExpandedDelightDisplayBlocks.ED_PEPERONATA);
-    public static final RegistryObject<Item> ED_CRANBERRY_CHICKEN = block(DisplayBlocks.ED_CRANBERRY_CHICKEN);
-    public static final RegistryObject<Item> ED_ASPARAGUS_MUSHROOM_PASTA = block(DisplayBlocks.ED_ASPARAGUS_MUSHROOM_PASTA);
-    public static final RegistryObject<Item> ED_SWEET_POTATO_CASSEROLE = block(DisplayBlocks.ED_SWEET_POTATO_CASSEROLE);
+    public static final RegistryObject<Item> ED_CRANBERRY_CHICKEN = block(ExpandedDelightDisplayBlocks.ED_CRANBERRY_CHICKEN);
+    public static final RegistryObject<Item> ED_ASPARAGUS_MUSHROOM_PASTA = block(ExpandedDelightDisplayBlocks.ED_ASPARAGUS_MUSHROOM_PASTA);
+    public static final RegistryObject<Item> ED_SWEET_POTATO_CASSEROLE = block(ExpandedDelightDisplayBlocks.ED_SWEET_POTATO_CASSEROLE);
 
+    public static final RegistryObject<Item> ED_ASPARAGUS_FRITTATA = block(ExpandedDelightDisplayBlocks.ED_ASPARAGUS_FRITTATA);
+    public static final RegistryObject<Item> ED_CHILI_PEPPER_SALMON = block(ExpandedDelightDisplayBlocks.ED_CHILI_PEPPER_SALMON);
 
     public static final RegistryObject<Item> ED_PEANUT_BUTTER_SANDWICH = block(ExpandedDelightDisplayBlocks.ED_PEANUT_BUTTER_SANDWICH);
     public static final RegistryObject<Item> ED_PEANUT_BUTTER_AND_HONEY_SANDWICH = block(ExpandedDelightDisplayBlocks.ED_PEANUT_BUTTER_AND_HONEY_SANDWICH);
     public static final RegistryObject<Item> ED_GLOW_BERRY_JELLY_SANDWICH = block(ExpandedDelightDisplayBlocks.ED_GLOW_BERRY_JELLY_SANDWICH);
     public static final RegistryObject<Item> ED_SWEET_BERRY_JELLY_SANDWICH = block(ExpandedDelightDisplayBlocks.ED_SWEET_BERRY_JELLY_SANDWICH);
+    public static final RegistryObject<Item> ED_PLATED_CRANBERRY_JELLY_SANDWICH = block(ExpandedDelightDisplayBlocks.ED_PLATED_CRANBERRY_JELLY_SANDWICH);
 
     public static final RegistryObject<Item> ED_CHEESE_SANDWICH = block(ExpandedDelightDisplayBlocks.ED_CHEESE_SANDWICH);
     public static final RegistryObject<Item> ED_GRILLED_CHEESE = block(ExpandedDelightDisplayBlocks.ED_GRILLED_CHEESE);
@@ -473,6 +478,84 @@ public class DisplayItems {
     public static final RegistryObject<Item> ND_NETHER_SKEWER =  block(PlatedBlocks.ND_NETHER_SKEWER);
 
 
+
+
+    public static final RegistryObject<Item> ABD_CHERRY_CREAM_SODA = drinkblock(DisplayBlocks.ABD_CHERRY_CREAM_SODA);
+    public static final RegistryObject<Item> ABD_PICKERELWEED_JUICE = drinkblock(DisplayBlocks.ABD_PICKERELWEED_JUICE);
+    public static final RegistryObject<Item> ABD_PASSION_ALOE_NECTAR = drinkblock(DisplayBlocks.ABD_PASSION_ALOE_NECTAR);
+
+    public static final RegistryObject<Item> ABD_DUCK_NOODLES = block(DisplayBlocks.ABD_DUCK_NOODLES);
+    public static final RegistryObject<Item> ABD_DUNE_PLATTER = block(DisplayBlocks.ABD_DUNE_PLATTER);
+    public static final RegistryObject<Item> ABD_PASSION_FRUIT_GLAZED_DUCK = block(DisplayBlocks.ABD_PASSION_FRUIT_GLAZED_DUCK);
+    public static final RegistryObject<Item> ABD_PERCH_WITH_MUSHROOMS = block(DisplayBlocks.ABD_PERCH_WITH_MUSHROOMS);
+    public static final RegistryObject<Item> ABD_VENISON_WITH_BAMBOO_SHOOTS = block(DisplayBlocks.ABD_VENISON_WITH_BAMBOO_SHOOTS);
+    public static final RegistryObject<Item> ABD_PIKE_WITH_BEETROOT = block(DisplayBlocks.ABD_PIKE_WITH_BEETROOT);
+    public static final RegistryObject<Item> ABD_SEARED_VENSION = block(DisplayBlocks.ABD_SEARED_VENSION);
+
+    public static final RegistryObject<Item> ABD_SLABDISH = block(DisplayBlocks.ABD_SLABDISH);
+
+
+    public static final RegistryObject<Item> ABD_PLATED_CHERRY_COOKIE = block(PlatedBlocks.ABD_PLATED_CHERRY_COOKIE);
+    public static final RegistryObject<Item> ABD_PLATED_MAPLE_COOKIE = block(PlatedBlocks.ABD_PLATED_MAPLE_COOKIE);
+    public static final RegistryObject<Item> ABD_PLATED_MULBERRY_COOKIE = block(PlatedBlocks.ABD_PLATED_MULBERRY_COOKIE);
+    public static final RegistryObject<Item> ABD_PLATED_ESCARGOT = block(PlatedBlocks.ABD_PLATED_ESCARGOT);
+
+    public static final RegistryObject<Item> ABD_SMALL_PLATED_ADZUKI_CAKE_SLICE = block(SmallPlatedBlocks.ABD_SMALL_PLATED_ADZUKI_CAKE_SLICE);
+    public static final RegistryObject<Item> ABD_SMALL_PLATED_BANANA_CAKE_SLICE = block(SmallPlatedBlocks.ABD_SMALL_PLATED_BANANA_CAKE_SLICE);
+    public static final RegistryObject<Item> ABD_SMALL_PLATED_CHOCOLATE_CAKE_SLICE = block(SmallPlatedBlocks.ABD_SMALL_PLATED_CHOCOLATE_CAKE_SLICE);
+    public static final RegistryObject<Item> ABD_SMALL_PLATED_MINT_CAKE_SLICE = block(SmallPlatedBlocks.ABD_SMALL_PLATED_MINT_CAKE_SLICE);
+    public static final RegistryObject<Item> ABD_SMALL_PLATED_STRAWBERRY_CAKE_SLICE = block(SmallPlatedBlocks.ABD_SMALL_PLATED_STRAWBERRY_CAKE_SLICE);
+    public static final RegistryObject<Item> ABD_SMALL_PLATED_VANILLA_CAKE_SLICE = block(SmallPlatedBlocks.ABD_SMALL_PLATED_VANILLA_CAKE_SLICE);
+    public static final RegistryObject<Item> ABD_SMALL_PLATED_YUCCA_GATEAU_SLICE = block(SmallPlatedBlocks.ABD_SMALL_PLATED_YUCCA_GATEAU_SLICE);
+
+
+
+    public static final RegistryObject<Item> FR_BLACK_TEA = drinkblock(DisplayBlocks.FR_BLACK_TEA);
+    public static final RegistryObject<Item> FR_COFFEE = drinkblock(DisplayBlocks.FR_COFFEE);
+    public static final RegistryObject<Item> FR_DANDELION_TEA = drinkblock(DisplayBlocks.FR_DANDELION_TEA);
+    public static final RegistryObject<Item> FR_GAMBLERS_TEA = drinkblock(DisplayBlocks.FR_GAMBLERS_TEA);
+    public static final RegistryObject<Item> FR_GREEN_TEA = drinkblock(DisplayBlocks.FR_GREEN_TEA);
+    public static final RegistryObject<Item> FR_PURULENT_TEA = drinkblock(DisplayBlocks.FR_PURULENT_TEA);
+    public static final RegistryObject<Item> FR_ROSE_HIP_TEA = drinkblock(DisplayBlocks.FR_ROSE_HIP_TEA);
+    public static final RegistryObject<Item> FR_YELLOW_TEA = drinkblock(DisplayBlocks.FR_YELLOW_TEA);
+
+
+    public static final RegistryObject<Item> FR_TEA_CURRY = block(DisplayBlocks.FR_TEA_CURRY);
+    public static final RegistryObject<Item> FR_BLAZING_CHILI = block(DisplayBlocks.FR_BLAZING_CHILI);
+    public static final RegistryObject<Item> FR_BLACK_COD = block(DisplayBlocks.FR_BLACK_COD);
+
+    public static final RegistryObject<Item> FR_PLATED_GREEN_TEA_COOKIE = block(PlatedBlocks.FR_PLATED_GREEN_TEA_COOKIE);
+    public static final RegistryObject<Item> FR_SMALL_PLATED_COFFEE_CAKE_SLICE = block(SmallPlatedBlocks.FR_SMALL_PLATED_COFFEE_CAKE_SLICE);
+    public static final RegistryObject<Item> FR_SMALL_PLATED_ROSE_HIP_PIE_SLICE = block(SmallPlatedBlocks.FR_SMALL_PLATED_ROSE_HIP_PIE_SLICE);
+
+
+    //  public static final RegistryObject<Item> MD_BAT_SOUP = block(DisplayBlocks.MD_BAT_SOUP);
+    public static final RegistryObject<Item> MD_CAVE_SOUP = block(DisplayBlocks.MD_CAVE_SOUP);
+    // public static final RegistryObject<Item> MD_INSECT_STEW = block(DisplayBlocks.MD_INSECT_STEW);
+
+    public static final RegistryObject<Item> MD_GLOW_INK_PASTA = block(DisplayBlocks.MD_GLOW_INK_PASTA);
+    public static final RegistryObject<Item> MD_PASTA_WITH_VEGGIEBALLS = block(DisplayBlocks.MD_PASTA_WITH_VEGGIEBALLS);
+
+    // public static final RegistryObject<Item> MD_SEASONED_ARTHROPODS = block(DisplayBlocks.MD_SEASONED_ARTHROPODS);
+    public static final RegistryObject<Item> MD_TAKOYAKI = block(DisplayBlocks.MD_TAKOYAKI);
+    public static final RegistryObject<Item> MD_VEGAN_STEAK_AND_POTATOES = block(DisplayBlocks.MD_VEGAN_STEAK_AND_POTATOES);
+
+    public static final RegistryObject<Item> MD_BOWL_OF_STUFFED_SQUID = block(DisplayBlocks.MD_BOWL_OF_STUFFED_SQUID);
+    public static final RegistryObject<Item> MD_PLATE_OF_FAKE_MEATLOAF = block(DisplayBlocks.MD_PLATE_OF_FAKE_MEATLOAF);
+    public static final RegistryObject<Item> MD_PLATE_OF_GLAZED_ARACHNID_LIMBS = block(DisplayBlocks.MD_PLATE_OF_GLAZED_ARACHNID_LIMBS);
+
+    public static final RegistryObject<Item> MD_PLATED_CAVE_HAMBURGER = block(PlatedBlocks.MD_PLATED_CAVE_HAMBURGER);
+    public static final RegistryObject<Item> MD_PLATED_VEGAN_HAMBURGER = block(PlatedBlocks.MD_PLATED_VEGAN_HAMBURGER);
+    // public static final RegistryObject<Item> MD_PLATED_INSECT_SANDWICH = block(PlatedBlocks.MD_PLATED_INSECT_SANDWICH);
+    public static final RegistryObject<Item> MD_PLATED_SQUID_SANDWICH = block(PlatedBlocks.MD_PLATED_SQUID_SANDWICH);
+
+    // public static final RegistryObject<Item> MD_PLATED_TENTACLES_ON_A_STICK = block(PlatedBlocks.MD_PLATED_TENTACLES_ON_A_STICK);
+    // public static final RegistryObject<Item> MD_PLATED_IMPROVISED_BARBECUE_STICK = block(PlatedBlocks.MD_PLATED_IMPROVISED_BARBECUE_STICK);
+
+    // public static final RegistryObject<Item> MD_PLATED_INSECT_WRAP = block(PlatedBlocks.MD_PLATED_INSECT_WRAP);
+    public static final RegistryObject<Item> MD_PLATED_VEGAN_WRAP = block(PlatedBlocks.MD_PLATED_VEGAN_WRAP);
+
+    
     public static RegistryObject<Item> blockitem(RegistryObject<Block> block) {
 
         return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

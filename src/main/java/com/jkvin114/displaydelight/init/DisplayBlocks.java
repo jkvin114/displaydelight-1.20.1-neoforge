@@ -150,10 +150,6 @@ public class DisplayBlocks {
     public static final RegistryObject<Block> BNC_CREAMY_ONION_SOUP = createFoodBlock("bnc_creamy_onion_soup");
     public static final RegistryObject<Block> BNC_VEGETABLE_OMELET = createFoodBlock("bnc_vegetable_omelet");
 
-    public static final RegistryObject<Block> ED_CRANBERRY_JUICE = createDrinkFoodBlock("ed_cranberry_juice");
-    public static final RegistryObject<Block> ED_CRANBERRY_CHICKEN = createWideFoodBlock("ed_cranberry_chicken");
-    public static final RegistryObject<Block> ED_ASPARAGUS_MUSHROOM_PASTA = createWideFoodBlock("ed_asparagus_mushroom_pasta");
-    public static final RegistryObject<Block> ED_SWEET_POTATO_CASSEROLE = createWideFoodBlock("ed_sweet_potato_casserole");
 
     public static final RegistryObject<Block> CTD_POACHED_EGGPLANTS = createFoodBlock("ctd_poached_eggplants");
     public static final RegistryObject<Block> CTD_EGGPLANT_PARMESAN = createFoodBlock("ctd_eggplant_parmesan");
@@ -255,6 +251,46 @@ public class DisplayBlocks {
     public static final RegistryObject<Block> ND_GRILLED_STRIDER = createWideFoodBlock("nd_grilled_strider");
 
 
+
+    public static final RegistryObject<Block> ABD_CHERRY_CREAM_SODA = createDrinkFoodBlock("abd_cherry_cream_soda");
+    public static final RegistryObject<Block> ABD_SEARED_VENSION = createWideFoodBlock("abd_seared_venison");
+    public static final RegistryObject<Block> ABD_DUCK_NOODLES = createWideFoodBlock("abd_duck_noodles");
+    public static final RegistryObject<Block> ABD_DUNE_PLATTER = createWideFoodBlock("abd_dune_platter");
+    public static final RegistryObject<Block> ABD_PASSION_ALOE_NECTAR = createDrinkFoodBlock("abd_passion_aloe_nectar");
+    public static final RegistryObject<Block> ABD_PASSION_FRUIT_GLAZED_DUCK = createWideFoodBlock("abd_passion_fruit_glazed_duck");
+    public static final RegistryObject<Block> ABD_PERCH_WITH_MUSHROOMS = createWideFoodBlock("abd_perch_with_mushrooms");
+    public static final RegistryObject<Block> ABD_PICKERELWEED_JUICE = createDrinkFoodBlock("abd_pickerelweed_juice");
+    public static final RegistryObject<Block> ABD_PIKE_WITH_BEETROOT = createWideFoodBlock("abd_pike_with_beetroot");
+    public static final RegistryObject<Block> ABD_SLABDISH = createFoodBlock("abd_slabdish");
+    public static final RegistryObject<Block> ABD_VENISON_WITH_BAMBOO_SHOOTS = createWideFoodBlock("abd_venison_with_bamboo_shoots");
+
+    public static final RegistryObject<Block> FR_BLACK_COD = createWideFoodBlock("fr_black_cod");
+    public static final RegistryObject<Block> FR_BLACK_TEA = createHotDrinkFoodBlock("fr_black_tea");
+    public static final RegistryObject<Block> FR_BLAZING_CHILI = createFieryFoodBlock("fr_blazing_chili");
+    public static final RegistryObject<Block> FR_COFFEE = createHotDrinkFoodBlock("fr_coffee");
+    public static final RegistryObject<Block> FR_DANDELION_TEA = createHotDrinkFoodBlock("fr_dandelion_tea");
+    public static final RegistryObject<Block> FR_GAMBLERS_TEA = createHotDrinkFoodBlock("fr_gamblers_tea");
+    public static final RegistryObject<Block> FR_GREEN_TEA = createHotDrinkFoodBlock("fr_green_tea");
+
+    public static final RegistryObject<Block> FR_PURULENT_TEA = createHotDrinkFoodBlock("fr_purulent_tea");
+    public static final RegistryObject<Block> FR_ROSE_HIP_TEA = createHotDrinkFoodBlock("fr_rose_hip_tea");
+
+    public static final RegistryObject<Block> FR_TEA_CURRY = createFoodBlock("fr_tea_curry");
+    public static final RegistryObject<Block> FR_YELLOW_TEA = createHotDrinkFoodBlock("fr_yellow_tea");
+
+    //  public static final RegistryObject<Block> MD_BAT_SOUP = createFoodBlock("md_bat_soup");
+    public static final RegistryObject<Block> MD_BOWL_OF_STUFFED_SQUID = createFoodBlock("md_bowl_of_stuffed_squid");
+    public static final RegistryObject<Block> MD_CAVE_SOUP = createFoodBlock("md_cave_soup");
+    public static final RegistryObject<Block> MD_GLOW_INK_PASTA = createWideFoodBlock("md_glow_ink_pasta");
+    //public static final RegistryObject<Block> MD_INSECT_STEW = createFoodBlock("md_insect_stew");
+    public static final RegistryObject<Block> MD_PASTA_WITH_VEGGIEBALLS = createWideFoodBlock("md_pasta_with_veggieballs");
+    public static final RegistryObject<Block> MD_PLATE_OF_FAKE_MEATLOAF = createFoodBlock("md_plate_of_fake_meatloaf");
+
+
+    public static final RegistryObject<Block> MD_PLATE_OF_GLAZED_ARACHNID_LIMBS = createFoodBlock("md_plate_of_glazed_arachnid_limbs");
+    // public static final RegistryObject<Block> MD_SEASONED_ARTHROPODS = createFoodBlock("md_seasoned_arthropods");
+    public static final RegistryObject<Block> MD_TAKOYAKI = createWideFoodBlock("md_takoyaki");
+    public static final RegistryObject<Block> MD_VEGAN_STEAK_AND_POTATOES = createWideFoodBlock("md_vegan_steak_and_potatoes");
     public static List<Block> getAll() {
         return blocks.stream().map(RegistryObject::get).toList();
     }

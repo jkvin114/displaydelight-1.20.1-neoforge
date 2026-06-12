@@ -21,6 +21,16 @@ public class ExpandedDelightDisplayBlocks {
     public static final RegistryObject<Block> ED_SWEET_BERRY_JUICE = RegisterHelper.createDrinkFoodBlock("ed_sweet_berry_juice");
     public static final RegistryObject<Block> ED_GLOW_BERRY_JUICE = RegisterHelper.createDrinkFoodBlock("ed_glow_berry_juice");
 
+    public static final RegistryObject<Block> ED_ASPARAGUS_FRITTATA = RegisterHelper.createFoodBlock("ed_asparagus_frittata");
+
+    public static final RegistryObject<Block> ED_CHILI_PEPPER_SALMON = RegisterHelper.createFoodBlock("ed_chili_pepper_salmon");
+    public static final RegistryObject<Block> ED_GOAT_CHEESE_BEETROOT_SALAD = RegisterHelper.createFoodBlock("ed_goat_cheese_beetroot_salad");
+
+    public static final RegistryObject<Block> ED_CRANBERRY_JUICE = RegisterHelper.createDrinkFoodBlock("ed_cranberry_juice");
+    public static final RegistryObject<Block> ED_CRANBERRY_CHICKEN = RegisterHelper.createWideFoodBlock("ed_cranberry_chicken");
+    public static final RegistryObject<Block> ED_ASPARAGUS_MUSHROOM_PASTA = RegisterHelper.createWideFoodBlock("ed_asparagus_mushroom_pasta");
+    public static final RegistryObject<Block> ED_SWEET_POTATO_CASSEROLE = RegisterHelper.createWideFoodBlock("ed_sweet_potato_casserole");
+
 
     public static final RegistryObject<Block> ED_SWEET_ROLL_SMALL = RegisterHelper.createSmallPlatedFoodBlock("ed_small_plated_sweet_roll");
     public static final RegistryObject<Block> ED_BERRY_SWEET_ROLL_SMALL = RegisterHelper.createSmallPlatedFoodBlock("ed_small_plated_berry_sweet_roll");
@@ -34,6 +44,7 @@ public class ExpandedDelightDisplayBlocks {
     public static final RegistryObject<Block> ED_SWEET_BERRY_JELLY_SANDWICH = RegisterHelper.createPlatedFoodBlock("ed_plated_sweet_berry_jelly_sandwich");
     public static final RegistryObject<Block> ED_CHEESE_SANDWICH = RegisterHelper.createPlatedFoodBlock("ed_plated_cheese_sandwich");
     public static final RegistryObject<Block> ED_GRILLED_CHEESE = RegisterHelper.createPlatedFoodBlock("ed_plated_grilled_cheese");
+    public static final RegistryObject<Block> ED_PLATED_CRANBERRY_JELLY_SANDWICH = RegisterHelper.createPlatedFoodBlock("ed_plated_cranberry_jelly_sandwich");
 
     public static final RegistryObject<Block> ED_CHOCOLATE_COOKIE = RegisterHelper.createStackablePlatedFoodBlock("ed_plated_chocolate_cookie", 4);
     public static final RegistryObject<Block> ED_SUGAR_COOKIE = RegisterHelper.createStackablePlatedFoodBlock("ed_plated_sugar_cookie", 4);
