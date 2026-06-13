@@ -5,8 +5,10 @@ import com.jkvin114.displaydelight.init.*;
 import com.jkvin114.displaydelight.init.compat.ExpandedDelightDisplayBlocks;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -53,11 +55,19 @@ public class DisplayDelight
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        modEventBus.addListener(this::addCreative);
 
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, DisplayConfig.CONFIG, "displaydelight-common.toml");
 
 
+    }
+    private void addCreative(BuildCreativeModeTabContentsEvent event)
+    {
+        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(DisplayItems.PLATE.get());
+            event.accept(DisplayItems.SMALL_PLATE.get());
+        }
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
